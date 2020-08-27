@@ -1,0 +1,396 @@
+/* Variables */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 2; }
+
+.barra .barra__logoweb {
+  padding-left: 20px;
+  display: flex; }
+
+.barra .barra__navbar {
+  background-color: #b9e0cb;
+  height: 155px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+
+h1 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 15px; }
+
+h2 {
+  background-color: #f0e19d;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #fcfffd;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.parrafohome .parrafohome__parrafo {
+  background-color: #e5cf76;
+  height: 50vh;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #fcfffd;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px; }
+
+.menu ul {
+  clear: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 25px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.menu li a {
+  font-family: 'Pathway Gothic One', sans-serif;
+  display: block;
+  padding: 15px 20px;
+  color: #fcfffd;
+  text-decoration: none;
+  font-size: 30px; }
+
+.footer {
+  background-color: #fcfdfd;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 30px;
+  color: #545454;
+  padding-top: 100px;
+  padding-bottom: 0px; }
+  .footer .footer__h4 {
+    padding-top: 10px; }
+
+.card {
+  background-color: #eaa9bb;
+  padding-bottom: 30px; }
+
+.grid {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 482px 482px 482px;
+  justify-content: space-around;
+  padding-top: 80px; }
+
+#p6 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p6:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p6 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p7 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p7:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p7 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p8 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p8:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p8 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p5 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p5:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p5 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p4 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p4:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p4 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p12 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p12:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p12 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p17 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p17:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p17 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p18 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p18:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p18 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p19 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p19:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p19 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p20 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p20:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p20 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p21 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p21:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p21 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+#p22 img {
+  -webkit-transition: all .9s ease;
+  width: 100%; }
+
+#p22:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25); }
+
+#p22 {
+  width: 270px;
+  height: 400px;
+  overflow: hidden; }
+
+.sobreMi .sobreMi__sobreMiFoto {
+  float: left; }
+
+.sobreMi .sobreMi__acercaDeMi {
+  clear: left;
+  height: 70vh;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #b9e0cb;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 400px; }
+
+#imagenBandaContacto {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%; }
+
+.tituloContacto {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #545454; }
+
+#fotoContacto {
+  float: left;
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-bottom: 100px; }
+
+#formularioContacto {
+  font-family: 'Pathway Gothic One', sans-serif;
+  align-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 170px; }
+
+#ventas {
+  display: inline-flex; }
+
+.TituloObra {
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px; }
+
+.venta1 {
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
+
+.venta2 {
+  clear: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
+  .venta2 .section {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif; }
+
+.venta3 {
+  padding-right: 10px;
+  padding-left: 46px;
+  padding-top: 40px; }
+  .venta3 .section {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif; }
+
+#ventas2 {
+  display: inline-flex; }
+
+.venta4 {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
+  .venta4 .section {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif; }
+
+.venta5 {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
+
+.venta6 {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
+
+#ventas3 {
+  display: inline-flex; }
+
+.venta7 {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
+
+.venta8 {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
+
+.venta9 {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px; }
