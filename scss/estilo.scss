@@ -8,11 +8,15 @@ body    {
     height: 100%;
 }
 
+/* Header */ 
+
+
 .header  {
     position: sticky;
     top: 0px;
     z-index: 2;
 }
+
 
 .barra  {
     .barra__logoweb {
@@ -32,39 +36,6 @@ body    {
         justify-content: space-between;
         align-items: flex-end;
         
-    }
-}
-
-h1 {
-    font-family: 'Pathway Gothic One', sans-serif;
-    text-align: center;
-    font-size: 45px;
-    padding-bottom: 15px;
-}
-
-h2 {
-    background-color: #f0e19d;
-    font-family: 'Pathway Gothic One', sans-serif;
-    color: #fcfffd;
-    text-align: center;
-    font-size: 45px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
-.parrafohome    {
-    .parrafohome__parrafo   {
-    background-color: #e5cf76;
-    height: 50vh;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 35px;
-    text-align: center;
-    color: #fcfffd;
-    padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
     }
 }
 
@@ -89,6 +60,44 @@ h2 {
         font-size: 30px;
     }
 }
+
+/* Headings */ 
+
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    background-color: #f0e19d;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #fcfffd;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Index.html */ 
+
+.parrafohome    {
+    .parrafohome__parrafo   {
+    background-color: #e5cf76;
+    height: 50vh;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #fcfffd;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    }
+}
+
+/* Footer */ 
 
 
 .footer {
@@ -116,6 +125,10 @@ h2 {
     justify-content: space-around;
     padding-top: 80px;
 }
+
+
+/* Pinturas.html */ 
+
 
 #p6 img {
     -webkit-transition:all .9s ease;
@@ -214,10 +227,12 @@ h2 {
     overflow:hidden;
 }
 
+
 #p12 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
+
 
 #p12:hover img {
     -webkit-transform:scale(1.25);
@@ -227,16 +242,19 @@ h2 {
     transform:scale(1.25);
 }
 
+
 #p12 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
+
 #p17 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
+
 
 #p17:hover img {
     -webkit-transform:scale(1.25);
@@ -246,16 +264,19 @@ h2 {
     transform:scale(1.25);
 }
 
+
 #p17 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
+
 #p18 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
+
 
 #p18:hover img {
     -webkit-transform:scale(1.25);
@@ -264,6 +285,7 @@ h2 {
     -o-transform:scale(1.25);
     transform:scale(1.25);
 }
+
 
 #p18 {
     width:270px;
@@ -277,6 +299,7 @@ h2 {
     width:100%;
 }
 
+
 #p19:hover img {
     -webkit-transform:scale(1.25);
     -moz-transform:scale(1.25);
@@ -285,16 +308,19 @@ h2 {
     transform:scale(1.25);
 }
 
+
 #p19 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
+
 #p20 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
+
 
 #p20:hover img {
     -webkit-transform:scale(1.25);
@@ -304,16 +330,19 @@ h2 {
     transform:scale(1.25);
 }
 
+
 #p20 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
+
 #p21 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
+
 
 #p21:hover img {
     -webkit-transform:scale(1.25);
@@ -323,16 +352,19 @@ h2 {
     transform:scale(1.25);
 }
 
+
 #p21 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
+
 #p22 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
+
 
 #p22:hover img {
     -webkit-transform:scale(1.25);
@@ -342,11 +374,14 @@ h2 {
     transform:scale(1.25);
 }
 
+
 #p22 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
+
+/* Biografía.html */ 
 
 
 .sobreMi    {
@@ -376,6 +411,9 @@ h2 {
     width: 80%;
 }
 
+/* Contacto.html */ 
+
+
 .tituloContacto {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 25px;
@@ -393,6 +431,7 @@ h2 {
    padding-bottom: 100px;
 }
 
+
 #formularioContacto     {
     font-family: 'Pathway Gothic One', sans-serif;
     align-content: space-between;
@@ -400,24 +439,31 @@ h2 {
     padding-bottom: 170px;
 }
 
+
+/* Tienda.html */ 
+
+
 #ventas {
     display: inline-flex;
-    
-
 }
+
+
 .TituloObra {
     padding-top: 10px;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
 }
+
+
 .venta1 {
     float: left;
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 40px;
-
 }
+
+
 .venta2 {
     clear: left;
     padding-right: 30px;
@@ -429,6 +475,8 @@ h2 {
         font-family: 'Pathway Gothic One', sans-serif;
     }
 }
+
+
 .venta3 {
     padding-right: 10px;
     padding-left: 46px;
@@ -440,9 +488,12 @@ h2 {
     }
 }
 
+
 #ventas2    {
     display: inline-flex;
 }
+
+
 .venta4 {
     padding-right: 30px;
     padding-left: 30px;
@@ -453,38 +504,45 @@ h2 {
         font-family: 'Pathway Gothic One', sans-serif;
     }
 }
+
+
 .venta5 {
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 40px;
 }
+
+
 .venta6 {
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 40px;
 }
 
+
 #ventas3    {
     display: inline-flex;
    
 }
+
+
 .venta7 {
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 40px;
 }
+
+
 .venta8 {
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 40px;
 }
+
+
 .venta9 {
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 40px;
 }
 
-.carro {
-    padding-top: 5px;
-    padding-bottom: 15px;
-}

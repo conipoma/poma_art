@@ -1,9 +1,11 @@
+@charset "UTF-8";
 /* Variables */
 body {
   margin: 0;
   padding: 0;
   height: 100%; }
 
+/* Header */
 .header {
   position: sticky;
   top: 0px;
@@ -24,33 +26,6 @@ body {
   justify-content: space-between;
   align-items: flex-end; }
 
-h1 {
-  font-family: 'Pathway Gothic One', sans-serif;
-  text-align: center;
-  font-size: 45px;
-  padding-bottom: 15px; }
-
-h2 {
-  background-color: #f0e19d;
-  font-family: 'Pathway Gothic One', sans-serif;
-  color: #fcfffd;
-  text-align: center;
-  font-size: 45px;
-  padding-top: 60px;
-  padding-bottom: 60px; }
-
-.parrafohome .parrafohome__parrafo {
-  background-color: #e5cf76;
-  height: 50vh;
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 35px;
-  text-align: center;
-  color: #fcfffd;
-  padding-top: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px; }
-
 .menu ul {
   clear: left;
   font-family: 'Pathway Gothic One', sans-serif;
@@ -69,6 +44,36 @@ h2 {
   text-decoration: none;
   font-size: 30px; }
 
+/* Headings */
+h1 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 15px; }
+
+h2 {
+  background-color: #f0e19d;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #fcfffd;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+/* Index.html */
+.parrafohome .parrafohome__parrafo {
+  background-color: #e5cf76;
+  height: 50vh;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #fcfffd;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px; }
+
+/* Footer */
 .footer {
   background-color: #fcfdfd;
   font-family: 'Pathway Gothic One', sans-serif;
@@ -91,6 +96,7 @@ h2 {
   justify-content: space-around;
   padding-top: 80px; }
 
+/* Pinturas.html */
 #p6 img {
   -webkit-transition: all .9s ease;
   width: 100%; }
@@ -283,6 +289,7 @@ h2 {
   height: 400px;
   overflow: hidden; }
 
+/* Biografía.html */
 .sobreMi .sobreMi__sobreMiFoto {
   float: left; }
 
@@ -304,6 +311,7 @@ h2 {
   max-width: 100%;
   width: 80%; }
 
+/* Contacto.html */
 .tituloContacto {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 25px;
@@ -324,6 +332,7 @@ h2 {
   padding-top: 80px;
   padding-bottom: 170px; }
 
+/* Tienda.html */
 #ventas {
   display: inline-flex; }
 
