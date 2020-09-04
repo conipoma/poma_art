@@ -34,7 +34,8 @@ body {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  transition: color .7s ease .5s; }
 
 .menu li a {
   font-family: 'Pathway Gothic One', sans-serif;
@@ -42,7 +43,12 @@ body {
   padding: 15px 20px;
   color: #fcfffd;
   text-decoration: none;
-  font-size: 30px; }
+  font-size: 30px;
+  transition: color .7s ease .5s; }
+
+.menu ul li a:hover {
+  color: #666764;
+  cursor: pointer; }
 
 /* Headings */
 h1 {
