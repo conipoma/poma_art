@@ -12,60 +12,35 @@ body    {
 
 
 .header  {
+    width: 100%;
     position: sticky;
     top: 0px;
     z-index: 2;
 }
 
-
-.barra  {
-    .barra__logoweb {
-        padding-left: 20px;
-        display: flex;
-
-    }
-    .barra__navbar {
-        
-        background-color: $verdeagua;
-        height: 155px;
-        padding-top: 20px;
-        padding-bottom: 5px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 35px;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        
-    }
+.barra{
+    background-color: $verdeagua;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
-.menu {
-
-    ul{
-    clear: left;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 25px;
-    margin: 0; 
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    transition: color .7s ease .5s;
-    }
-    li  a {
-        font-family: 'Pathway Gothic One', sans-serif;
-        display: block;
-        padding: 15px 20px;
-        color: #fcfffd;
-        text-decoration: none;
-        font-size: 30px;
-        transition: color .7s ease .5s;
-    }
+.logoWeb    {
+    padding: 10px;;
 }
 
-.menu ul li a:hover {
-    color: #666764;
-    cursor: pointer;
+.secciones  {
+    a {
+        font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    color: #fcfffd;
+    }
+    
+}
+
+.secciones  a   {
+    color: #fcfffd;
 }
 
 /* Headings */ 
@@ -413,7 +388,6 @@ h2 {
 
 #imagenBandaContacto {
     display: block;
-    margin: 0 auto;
     max-width: 100%;
     width: 80%;
 }
