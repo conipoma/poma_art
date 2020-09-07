@@ -370,16 +370,18 @@ h2 {
 
 
 .sobreMi    {
-
-    .sobreMi__sobreMiFoto    {
+    .sobreMI__sobreMiFoto    {
         margin-left: auto;
         margin-right: auto;
+    }
+    .mx-auto img {
+        padding-bottom: 50px;
+
     }
 
     .sobreMi__acercaDeMi {
         background-color: #e5cf76;
         clear: left;
-        height: 45vh;
         font-family: 'Pathway Gothic One', sans-serif;
         font-size: 35px;
         text-align: center;

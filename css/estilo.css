@@ -278,14 +278,16 @@ h2 {
   overflow: hidden; }
 
 /* Biografía.html */
-.sobreMi .sobreMi__sobreMiFoto {
+.sobreMi .sobreMI__sobreMiFoto {
   margin-left: auto;
   margin-right: auto; }
+
+.sobreMi .mx-auto img {
+  padding-bottom: 50px; }
 
 .sobreMi .sobreMi__acercaDeMi {
   background-color: #e5cf76;
   clear: left;
-  height: 45vh;
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 35px;
   text-align: center;
