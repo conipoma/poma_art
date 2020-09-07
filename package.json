@@ -1,6 +1,7 @@
 {
-  "name": "c",
+  "name": "indexweb",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node": "^14.8.0",
     "node-sass": "^4.14.1",
-    "nodemon": "^2.0.4",
-    "sass": "^1.26.10"
-  },
-  "dependencies": {},
-  "description": ""
+    "nodemon": "^2.0.4"
+  }
 }

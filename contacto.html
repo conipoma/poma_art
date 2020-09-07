@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="css/estilo.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
+
+  <!-- Navbar -->
   <header class="header">
     <div class="barra">
       <div class="logoWeb">
@@ -42,57 +43,57 @@
     </div>
   </header>
 
-  
-<div id="imagenBandaContacto">
-<img src="img/paint16long.jpg" alt="" height="140" width="2560px">
-</div> 
-
+<!-- Contacto -->
 <div class="tituloContacto">
-<h1>Contacto</h1>
+  <h2>Contacto</h2>
 </div>
 
-
+<!-- Imagen contacto -->
+<div id="containerContacto">
 <div id="fotoContacto">
-    <img src="img/contacto.jpg" alt="" width="500" height="">
+    <div class="mx-auto" style="width: 400px;">
+      <img src="img/contacto.jpg" class="img-fluid" alt="Responsive image">
+    </div>
 </div>
 
+<!-- Formulario -->
 <section>
-    <div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <div>
-                
-              </div>
-              <form id="formularioContacto" method="post" data-form-title="CONTACT US">
-                <input type="hidden" data-form-email="true">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="nombre" required="" placeholder="Nombre" data-form-field="Nombre">
-                </div>
-                <div class="form-group">
-                  <input type="tel" class="form-control" name="apellido" placeholder="Apellido" data-form-field="Apellido">
-                </div>
-
-
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" required="" placeholder="Email" data-form-field="Email">
-                </div>
-                
-                <div class="form-group">
-                  <textarea class="form-control" name="mensaje" placeholder="Mensaje" rows="7" data-form-field="Mensaje"></textarea>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-outline-info">Enviar</button>
-                </div>
-              </form>
+  <div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div>
+              
             </div>
+            <form id="formularioContacto" method="post" data-form-title="CONTACT US">
+              <input type="hidden" data-form-email="true">
+              <div class="form-group">
+                <input type="text" class="form-control" name="nombre" required="" placeholder="Nombre" data-form-field="Nombre">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" name="apellido" placeholder="Apellido" data-form-field="Apellido">
+              </div>
+
+
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" required="" placeholder="Email" data-form-field="Email">
+              </div>
+              
+              <div class="form-group">
+                <textarea class="form-control" name="mensaje" placeholder="Mensaje" rows="7" data-form-field="Mensaje"></textarea>
+              </div>
+              <div>
+                  <button type="button" class="btn btn-outline-info">Enviar</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
+<!-- Footer -->
 <footer>
     <div class="footer">
       <div class="card text-center">
@@ -125,10 +126,8 @@
         <h6>© 2020 Constanza Poma Art / Todos los derechos reservados. Desarrollado por <a href="https://www.linkedin.com/in/constanza-poma-951ab41a9/">Constanza Poma</a></h6>
       </div>
 </footer>
-
-   
-
 </body>
+
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- popper -->
