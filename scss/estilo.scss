@@ -1,7 +1,6 @@
 /* Variables */ 
 $verdeagua: #b9e0cb;
 
-
 body    {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body    {
 
 /* Header */ 
 
-
 .header  {
     width: 100%;
     position: sticky;
@@ -18,29 +16,39 @@ body    {
     z-index: 2;
 }
 
-.barra  {
-    background-color: $verdeagua;
-    width: auto;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 5px;
+.bg-light   {
+    background-color: $verdeagua !important;
 }
 
-.logoWeb    {
-    padding: 10px;;
+#navbarNav  {
+    justify-content: flex-end;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 35px;
+    padding-top: 35px;
+    color: #fcfffd !important;
+    
+    #navbarNav:hover   {
+        color: darkmagenta !important;
+    }  
 }
 
-.secciones  {
-    a {
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 30px;
-        color: #fcfffd;
-    }
-    ul li a:hover {
-        color: #666764;
-        transition: all .4s;
-        cursor: pointer;
-    }
+.navbar-light .navbar-nav .nav-link {
+    color: #fcfffd;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #e8496e;
+}
+
+.navbar-light .navbar-nav .nav-link:hover   {
+    color: #a615ee;
+    font-size: 38px;
+    transition: all .2s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 
@@ -65,7 +73,6 @@ h2 {
 
 /* Index.html */ 
 
-
 .parrafohome    {
     .parrafohome__parrafo   {
     background-color: #e5cf76;
@@ -82,7 +89,6 @@ h2 {
 }
 
 /* Footer */ 
-
 
 .footer {
     background-color: #fcfdfd;
@@ -114,7 +120,6 @@ h2 {
 
 /* Pinturas.html */ 
 
-
 #p6 img {
     -webkit-transition:all .9s ease;
     width:100%;
@@ -139,6 +144,7 @@ h2 {
     width:100%;
     
 }
+
 #p7:hover img {
     -webkit-transform:scale(1.25);
     -moz-transform:scale(1.25);
@@ -212,12 +218,10 @@ h2 {
     overflow:hidden;
 }
 
-
 #p12 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
-
 
 #p12:hover img {
     -webkit-transform:scale(1.25);
@@ -227,19 +231,16 @@ h2 {
     transform:scale(1.25);
 }
 
-
 #p12 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
-
 #p17 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
-
 
 #p17:hover img {
     -webkit-transform:scale(1.25);
@@ -249,19 +250,16 @@ h2 {
     transform:scale(1.25);
 }
 
-
 #p17 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
-
 #p18 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
-
 
 #p18:hover img {
     -webkit-transform:scale(1.25);
@@ -271,19 +269,16 @@ h2 {
     transform:scale(1.25);
 }
 
-
 #p18 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
-
 #p19 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
-
 
 #p19:hover img {
     -webkit-transform:scale(1.25);
@@ -293,19 +288,16 @@ h2 {
     transform:scale(1.25);
 }
 
-
 #p19 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
-
 #p20 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
-
 
 #p20:hover img {
     -webkit-transform:scale(1.25);
@@ -315,19 +307,16 @@ h2 {
     transform:scale(1.25);
 }
 
-
 #p20 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
-
 #p21 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
-
 
 #p21:hover img {
     -webkit-transform:scale(1.25);
@@ -337,19 +326,16 @@ h2 {
     transform:scale(1.25);
 }
 
-
 #p21 {
     width:270px;
     height:400px;
     overflow:hidden;
 }
 
-
 #p22 img {
     -webkit-transition:all .9s ease;
     width:100%;
 }
-
 
 #p22:hover img {
     -webkit-transform:scale(1.25);
@@ -359,7 +345,6 @@ h2 {
     transform:scale(1.25);
 }
 
-
 #p22 {
     width:270px;
     height:400px;
@@ -367,7 +352,6 @@ h2 {
 }
 
 /* Biografía.html */ 
-
 
 .sobreMi    {
     .sobreMI__sobreMiFoto    {
@@ -395,6 +379,7 @@ h2 {
 
 
 /* Contacto.html */
+
 #fotoContacto   {
     float: left;
     padding-left: 200px;
@@ -412,11 +397,9 @@ h2 {
 
 /* Tienda.html */ 
 
-
 #ventas {
     display: flex;
     flex-wrap: wrap;}
-
 
 .TituloObra {
     padding-top: 10px;
@@ -425,7 +408,6 @@ h2 {
     font-size: 20px;
 }
 
-
 .venta1 {
     width: 460px;
     height: 780px;
@@ -433,7 +415,6 @@ h2 {
     padding-left: 30px;
     padding-top: 40px;
 }
-
 
 .venta2 {
     width: 460px;
@@ -448,7 +429,6 @@ h2 {
     }
 }
 
-
 .venta3 {
     width: 460px;
     height: 780px;
@@ -461,7 +441,6 @@ h2 {
         font-family: 'Pathway Gothic One', sans-serif;
     }
 }
-
 
 .venta4 {
     width: 460px;
@@ -476,7 +455,6 @@ h2 {
     }
 }
 
-
 .venta5 {
     width: 460px;
     height: 780px;
@@ -484,7 +462,6 @@ h2 {
     padding-left: 30px;
     padding-top: 40px;
 }
-
 
 .venta6 {
     width: 460px;
@@ -494,7 +471,6 @@ h2 {
     padding-top: 40px;
 }
 
-
 .venta7 {
     width: 460px;
     height: 780px;
@@ -502,7 +478,6 @@ h2 {
     padding-left: 30px;
     padding-top: 40px;
 }
-
 
 .venta8 {
     width: 460px;
@@ -512,7 +487,6 @@ h2 {
     padding-top: 40px;
 }
 
-
 .venta9 {
     width: 460px;
     height: 780px;
@@ -521,5 +495,40 @@ h2 {
     padding-top: 40px;
 }
 
+/* Variables */ 
 
+.bg-light   {
+    background-color: $verdeagua !important;
+}
+
+#navbarNav  {
+    justify-content: flex-end;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 35px;
+    padding-top: 35px;
+    color: #fcfffd !important;
+    
+    #navbarNav:hover   {
+        color: darkmagenta !important;
+    }  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fcfffd;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #e8496e;
+}
+
+.navbar-light .navbar-nav .nav-link:hover   {
+    color: #a615ee;
+    font-size: 38px;
+    transition: all .2s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 

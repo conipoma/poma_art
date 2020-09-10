@@ -12,25 +12,32 @@ body {
   top: 0px;
   z-index: 2; }
 
-.barra {
-  background-color: #b9e0cb;
-  width: auto;
-  height: auto;
-  padding-top: 20px;
-  padding-bottom: 5px; }
+.bg-light {
+  background-color: #b9e0cb !important; }
 
-.logoWeb {
-  padding: 10px; }
-
-.secciones a {
+#navbarNav {
+  justify-content: flex-end;
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
+  padding-top: 35px;
+  color: #fcfffd !important; }
+  #navbarNav #navbarNav:hover {
+    color: darkmagenta !important; }
+
+.navbar-light .navbar-nav .nav-link {
   color: #fcfffd; }
 
-.secciones ul li a:hover {
-  color: #666764;
-  transition: all .4s;
-  cursor: pointer; }
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #e8496e; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #a615ee;
+  font-size: 38px;
+  transition: all .2s; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem; }
 
 /* Headings */
 h1 {
@@ -392,3 +399,31 @@ h2 {
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 40px; }
+
+/* Variables */
+.bg-light {
+  background-color: #b9e0cb !important; }
+
+#navbarNav {
+  justify-content: flex-end;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 35px;
+  padding-top: 35px;
+  color: #fcfffd !important; }
+  #navbarNav #navbarNav:hover {
+    color: darkmagenta !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fcfffd; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #e8496e; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #a615ee;
+  font-size: 38px;
+  transition: all .2s; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem; }
