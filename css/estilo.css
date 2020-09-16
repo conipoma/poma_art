@@ -137,17 +137,24 @@ h2 {
   padding-bottom: 20px; }
 
 /* Contacto.html */
+#container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 5rem 5rem 2rem; }
+
 #fotoContacto {
-  float: left;
-  padding-left: 200px;
-  padding-right: 100px;
+  width: 600px;
   padding-bottom: 100px; }
 
 #formularioContacto {
   font-family: 'Pathway Gothic One', sans-serif;
-  align-content: space-between;
   padding-top: 80px;
   padding-bottom: 170px; }
+
+.form-control {
+  width: 400%; }
 
 /* Tienda.html */
 #ventas {
